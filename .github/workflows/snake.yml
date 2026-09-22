@@ -1,0 +1,34 @@
+name: snake
+
+on:
+  schedule:
+    # Todos los días a las 06:00 UTC (00:00 hora de Monterrey), para que el gif se mantenga al día.
+    - cron: "0 6 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+# El token por defecto necesita permiso de escritura para publicar el SVG en la rama "output".
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: genera la animación de la serpiente
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Mapka21
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: publica el resultado en la rama "output"
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          # Reescribe la rama en cada corrida: solo hace falta guardar el SVG más reciente.
+          force_orphan: true
