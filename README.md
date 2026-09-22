@@ -1,9 +1,12 @@
 <div align="center">
 
+![banner](https://capsule-render.vercel.app/api?type=rect&color=0:05070b,100:111a26&height=140&section=header&text=MARCO%20ZAVALA&fontColor=9dd6ff&fontSize=42&fontAlignY=45&desc=full-stack%20%C2%B7%20devops%20%C2%B7%203d&descAlignY=68&descColor=ff7a1a&descSize=16&animation=fadeIn)
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1200&color=9DD6FF&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer+%C2%B7+DevOps+%C2%B7+3D+Artist;present+day%2C+present+time;de+punta+a+punta%3A+de+la+idea+al+hardware)](https://github.com/Mapka21)
 
 [![Portfolio](https://img.shields.io/badge/portfolio-mapka.is--a.dev-9dd6ff?style=for-the-badge&logo=vercel&logoColor=black)](https://mapka.is-a.dev)
 [![Email](https://img.shields.io/badge/email-sees360%40outlook.com-ff7a1a?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:sees360@outlook.com)
+![visitas](https://komarev.com/ghpvc/?username=Mapka21&style=for-the-badge&color=9dd6ff&label=visitas)
 
 </div>
 
@@ -32,6 +35,12 @@ Voy por **proyectos freelance**, no por chamba de oficina.
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=Mapka21&theme=tokyonight&hide_border=true&background=0D1117" alt="racha de commits" />
+</div>
+
+### `> nmap ciudad.wired`
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Mapka21/Mapka21/main/profile-3d-contrib/profile-night-view.svg" alt="horizonte 3D de contribuciones, vista nocturna" width="95%" />
 </div>
 
 ### `> wired://`
